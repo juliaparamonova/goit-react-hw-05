@@ -1,0 +1,31 @@
+.list {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.listItem {
+    border: 1px solid black;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+    width: 20%;
+    display: flex;
+    gap: 10px;
+}
+
+.image {
+    border-radius: 10px;
+    width: 150px;
+}
+
+.name {
+    font-size: 18px;
+}
+
+.role {
+    font-size: 16px;
+    font-weight: 600;
+}

@@ -1,0 +1,23 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.listItem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: #3b3838;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.block {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.date {
+    align-self: flex-start;
+}
