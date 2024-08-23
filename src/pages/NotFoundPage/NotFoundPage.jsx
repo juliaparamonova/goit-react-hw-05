@@ -9,7 +9,7 @@ const NotFoundPage = () => {
       <Container>
         <div className={clsx(s.box)}>
           <h2 className={clsx(s.oops)}>{`:(`}</h2>
-          <p className={clsx(s.text)}>There is no such page</p>
+          <p className={clsx(s.text)}>Not Found Page</p>
           <Link className={clsx(s.button)} to="/">
             Go Home
           </Link>
